@@ -1,10 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body{
     font-family: "Mulish", sans-serif;
 }
 
 
 header{
-    margin: 50px 135px;
+    margin: 0px 135px;
 }
 /* navbar relates styles */
 
@@ -13,6 +20,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 50px 0px;
+
 }
 
 .nav-logo{
@@ -63,6 +72,7 @@ nav ul >li{
     font-size: 36px;
     font-weight: 800;
 }
+/* navbar section styles end */
 
 /* banner section styles */
 
@@ -181,3 +191,198 @@ nav ul >li{
     margin-top: 7px;
 
 }
+
+/* banner section styles end */
+
+/* tour section styles */
+
+.tour-section{
+    margin: 0px 135px;
+}
+
+.tour-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tour-content h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-content-des1{
+    color: rgba(19, 19, 24, 0.70);
+    width: 577px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin: 24px 0px;
+}
+
+.tour-content ul>li{
+    color: rgba(19, 19, 24, 0.70);
+    width: 625px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px; 
+    margin-top: 24px;
+}
+
+.tour-content ul{
+    margin-left: 20px;
+}
+
+.tour-content-des2{
+    color: #5A5A5D;
+    width: 530px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-top: 24px;
+    
+}
+
+.tour-btn{
+    margin-top: 32px;
+}
+
+.tour-img img{
+    width: 640px;
+    height: auto;
+    border-radius: 16px;
+}
+
+/* tour section styles end */
+
+
+/* destination section styles */
+
+.destination-section{
+
+    margin: 50px 135px;
+
+}
+
+.destination-title{
+
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.destination-des{
+
+    color: rgba(19, 19, 24, 0.70);
+    width: 643px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin: 24px 500px;
+
+}
+
+/* part-1 styles */
+
+.part-1-container{
+    display: flex;
+    margin-top: 60px;
+    gap: 30px;
+  
+}
+
+.part-1-img1{
+    
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("/Images/Rectangle\ 5.png");
+    background-size: cover;
+    width: 810px;
+    height: 424px;
+    border-radius: 16px;
+
+}
+
+.part-1-img2{
+    background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("/Images/Rectangle\ 8.png");
+    background-size: cover;
+    width: 810px;
+    height: 424px;
+    border-radius: 16px;
+}
+
+.destination-img-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 200px;
+    
+
+}
+
+/* part-2 styles */
+
+.part-2-container{
+    display: flex;
+    margin-top: 30px;
+    gap:30px
+
+}
+
+.part-2-img1{
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("/Images/Rectangle\ 6.png");
+    width: 530px;
+    height: 424px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.part-2-img2{
+    background-image:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url("/Images/Rectangle\ 7.png");
+    width: 672px;
+    height: 424px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.part-2-img3{
+    background-image:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("/Images/Rectangle\ 9.png");
+    width: 388px;
+    height: 424px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part-3-container{
+    display: flex;
+    margin-top: 30px;
+    gap:30px
+}
+
+.part-3-img1{
+    background-image:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("/Images/Rectangle\ 11.png");
+    width: 668.6px;
+    height: 424px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part-3-img2{
+    background-image:  linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("/Images/Rectangle\ 10.png");
+    width: 951.3px;
+    height: 424px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
