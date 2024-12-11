@@ -546,6 +546,7 @@ nav ul >li{
 /* hotel room section styles */
 
 .hotel-rooms-section{
+   
 
 }
 
@@ -917,7 +918,7 @@ footer{
 
 .logo-container{
     display: flex;
-   
+  
     /* width: 260px; */
     margin: 0 auto;
     padding: 110px 450px 0px 500px;
